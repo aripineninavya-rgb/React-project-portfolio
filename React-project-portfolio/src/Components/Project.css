@@ -1,0 +1,12 @@
+.project{
+    margin: 0px;
+    padding: 0px;
+    justify-items: center;
+    color: rgb(209, 30, 7);
+    background-color: rgb(211, 202, 193);
+}
+
+.img{
+  width: 800px;
+  display: grid;
+}
