@@ -3,10 +3,11 @@
     padding: 0px;
     justify-items: center;
     color: rgb(141, 111, 107);
-    background-color: rgb(211, 202, 193);
+   
 }
 
 .img{
-  width: 800px;
+  width: 50%;
+  min-width: 500px;
   display: grid;
 }

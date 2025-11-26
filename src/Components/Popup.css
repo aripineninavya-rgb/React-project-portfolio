@@ -27,3 +27,7 @@
   float: right;
   cursor: pointer;
 }
+
+.popup-img{
+    width: 50%;
+}

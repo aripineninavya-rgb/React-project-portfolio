@@ -9,8 +9,8 @@ import sasimg from "../assets/sas.png";
 
 function Portfolio() {
     const [selectedProject, setSelectedProject] = useState(null);
+    const [search, setSearch] = useState("");
 
-    
     
     
     const projects =[
@@ -39,7 +39,7 @@ function Portfolio() {
       {
 
         no : "3",
-        projectName : "Book Tracker",
+        projectName : "Sas Document",
         screenshot : sasimg,
         tech : "HTML, CSS, SAS",
         repo : "https://github.com/aripineninavya-rgb/sasdocument",
@@ -47,6 +47,20 @@ function Portfolio() {
                 
       }
     ];
+
+    const filteredProjects = projects.filter((project) => {
+      const searchText = search.toLowerCase();
+
+      const numberMatch = project.no.toLowerCase().includes(searchText);
+
+      const nameMatch = project.projectName.toLowerCase().includes(searchText);
+
+      const techMatch = project.tech.toLowerCase().includes(searchText);
+
+      const noteMatch = project.shortNote.toLowerCase().includes(searchText);
+
+      return numberMatch || nameMatch || techMatch || noteMatch;
+    });
            
     
     return(
@@ -54,14 +68,23 @@ function Portfolio() {
       <div>
         <h2>My Projects</h2>
 
+        <input 
+        
+        type="text" placeholder="Seach projects..." value={search} onChange={(e) => setSearch(e.target.value)}
+        style={{
+          padding: "10px", width: "50%", marginBottom: "20px", fontSize: "16px"
+        }}/>
+
         <div>
-          {projects.map((project, i) => (
-            <Project
+        {filteredProjects.map((project, i) => (
+
+           <Project
             key={i}
             {...project}
             onOpen={() => setSelectedProject(project)}
             />
-          ))}
+            
+        ))}
         </div>
 
         <Popup project={selectedProject} onClose={()=>setSelectedProject(null)} />
