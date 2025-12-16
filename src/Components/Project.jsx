@@ -8,7 +8,8 @@ function Project(props){
         <img className="img" src={props.screenshot} alt={props.name} />
         <h3>Techs used: {props.tech}</h3>
         <h4>CLICK HERE:<a href={props.repo}>Github Link</a></h4>
-        <p>{props.shortNote}</p>
+        <p className="text">{props.description}</p>
+        <p className="text">{props.shortNote}</p>
     </div>
     )
 }

@@ -1,13 +1,17 @@
 .project{
-    margin: 0px;
-    padding: 0px;
+    margin: 20px;
+    padding: 20px;
     justify-items: center;
-    color: rgb(141, 111, 107);
-   
+    color: rgb(67, 37, 1);
+    background-color: rgb(211, 207, 193);
+    font-size: 19px;
 }
 
 .img{
-  width: 50%;
-  min-width: 500px;
+  width: 800px;
   display: grid;
+}
+
+.text {
+  width: 1200px;
 }

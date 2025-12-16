@@ -12,6 +12,7 @@ function Popup({project, onClose}){
                 <img src={project.screenshot} alt = "" className="popup-img" />
                 <h3>Techs used: {project.tech}</h3>
                 <h4>CLICK HERE:<a href={project.repo}>Github Link</a></h4>
+                <p>{project.description}</p>
                 <p>{project.shortNote}</p>
             </div>
         </div>
