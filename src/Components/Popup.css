@@ -16,6 +16,7 @@
   width: 450px;
   border-radius: 15px;
   text-align: center;
+  justify-items: center;
 }
 
 .close-btn {
