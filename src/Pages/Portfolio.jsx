@@ -8,6 +8,7 @@ import fromsimg from "../assets/forms.png";
 import djimg from "../assets/groupproject.png";
 import minigame from "../assets/Minigame.png";
 import bhromaon from "../assets/Bhromaon.png";
+import sasdocument from "../assets/sasdocument.png";
 
 
 function Portfolio() {
@@ -23,6 +24,7 @@ function Portfolio() {
       projectName: "Form",
       screenshot: fromsimg,
       tech: "HTML, CSS, Forms",
+      liveLink: "https://resilient-belekoy-c26627.netlify.app/",
       repo: "https://github.com/aripineninavya-rgb/form-design",
       description: "This project is a responsive HTML form designed to collect user information such as name, email, and other inputs. The form includes proper labels, required fields, and basic validation to ensure correct data entry. Through this project, I learned how to structure forms using semantic HTML, apply validation rules, and style forms using CSS for better usability and accessibility.",
       shortNote: "This project is a form that collects user information and displays the submitted results. I learned how to use HTML input fields, labels, and validation."
@@ -49,7 +51,7 @@ function Portfolio() {
       repo: "https://github.com/MPLarsson/Group-Project",
       description: "This was our first group project where we built a multi-page DJ-themed website. The website includes a landing page, about us / product page, gallery, and contact page. We focused on creating a consistent design, smooth navigation between pages, hover effects on all interactive elements, and a validated contact form. The project helped us understand how to plan, design, and build a complete website as a team using GitHub collaboration.",
       shortNote: "Learned how to collaborate using GitHub branches, translate Figma designs into real code, maintain consistent UI across multiple pages, and communicate effectively within a team. I was responsible for designing the UI in Figma and developing the About Us page."
-    
+
     },
 
     {
@@ -72,9 +74,18 @@ function Portfolio() {
       repo: "https://github.com/aripineninavya-rgb/Html-test-1",
       description: "Bhromaon is a responsive travel website built to showcase destinations and services. The project uses semantic HTML, organized Sass partials, and modern CSS layout techniques (Flexbox and Grid) to create a visually appealing and accessible interface. It includes interactive elements like buttons, navigation, and social icons with hover/focus states, a validated search form, and is fully responsive down to mobile screens.",
       shortNote: "Learned to build semantic, responsive web pages using HTML, CSS, and Sass; implement Flexbox/Grid for layouts; add hover/focus states for interactivity; structure code with Sass partials; and handle form validation while following design requirements."
+    },
+
+    {
+      no: "6",
+      projectName: "Sasdocument",
+      screenshot: sasdocument,
+      tech: "HTML, CSS, SAS, Document Layout",
+      liveLink: "https://stately-cocada-804527.netlify.app/",
+      repo: "https://github.com/aripineninavya-rgb/sasdocument",
+      description: "This project focuses on recreating a professional-looking document layout similar to an official SAS document using HTML and CSS. The goal was to achieve clean structure, alignment, spacing, and readability.",
+      shortNote: "Learned how to use HTML and CSS to create a structured, professional document layout. Focused on typography, spacing, and alignment to mimic the style of an official SAS document."
     }
-
-
 
 
   ];

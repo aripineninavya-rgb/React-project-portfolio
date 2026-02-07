@@ -7,6 +7,7 @@ function Project(props){
         <h2>Project Name: {props.projectName}</h2>
         <img className="img" src={props.screenshot} alt={props.name} />
         <h3>Techs used: {props.tech}</h3>
+        <h4>Live link: <a href={props.liveLink}>Live Demo</a></h4>
         <h4>CLICK HERE:<a href={props.repo}>Github Link</a></h4>
         <p className="text">{props.description}</p>
         <p className="text">{props.shortNote}</p>
