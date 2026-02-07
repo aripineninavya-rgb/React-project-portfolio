@@ -1,6 +1,6 @@
 function contact () {
     return(
-        <div className="Pages">
+        <div className="Pages contact">
             <h1 className="main-heading">Contact</h1>
             <h3 className="sub-headind">Navyasri Aripineni</h3>
             <h4>aripineninavya@gmail.com</h4>

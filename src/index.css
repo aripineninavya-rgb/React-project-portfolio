@@ -3,12 +3,11 @@
    justify-items: center;
    align-content: center;
    background-color: azure;
-   height: 90vh;
+   
 }
 
 .main-heading{
     color: royalblue;
-    width: 1200px;
    text-align: center;
 }
 
@@ -21,9 +20,13 @@
     align-items: center;
 }
 .imgabout{
-    padding: 10px;
-    height: 700px;
+   
+    height: 536px;
 }
 .imghome{
     width: 100%;
+}
+
+.contact{
+    height: 83vh ;
 }
