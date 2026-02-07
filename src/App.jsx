@@ -12,7 +12,6 @@ function App() {
    <>
   <BrowserRouter>
   <Navbar/>
-  <h1>Hello my world</h1>
 
     <Routes>
       <Route path="/" element={<Home />} />

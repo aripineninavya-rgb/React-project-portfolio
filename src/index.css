@@ -1,11 +1,29 @@
 .Pages{
+    width: 100%;
    justify-items: center;
+   align-content: center;
+   background-color: azure;
+   height: 90vh;
 }
 
 .main-heading{
     color: royalblue;
+    width: 1200px;
+   text-align: center;
 }
 
 .sub-headind{
     color: palevioletred;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgabout{
+    padding: 10px;
+    height: 700px;
+}
+.imghome{
+    width: 100%;
 }

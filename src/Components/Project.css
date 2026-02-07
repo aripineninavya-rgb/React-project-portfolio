@@ -15,3 +15,20 @@
 .text {
   width: 1200px;
 }
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(211, 207, 193);
+    padding: 10px;
+    gap: 300px
+}
+.nav-links{
+    list-style: none;
+  display: flex;
+    margin: 0;
+    padding: 10px;
+    color: rgb(67, 37, 1);
+    align-items: center;
+    gap: 30px;
+}

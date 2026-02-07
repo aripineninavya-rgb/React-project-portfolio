@@ -1,8 +1,12 @@
-
+import Me from "../assets/Me.png";
 
 function About() {
     return(
-        <div className="Pages">
+        <div className="flex">
+            <div>
+                <img className="imgabout" src={Me} alt="My Picture" />
+            </div>
+        <div className="Pages about">
             <h1 className="main-heading">I am a Junior Frontend Developer based in Malmö, Sweden, currently studying Backend Development at YH-Sundsgården.</h1>
             <h2 className="sub-headind">EDUCATION</h2>
             <p>Bachelor´s Degree (B.Tech) - Electronics & Communication Engineering at Jawaharlal Nehru Technological University, India | 2010-2014. </p>
@@ -15,6 +19,7 @@ function About() {
                 <h2 className="sub-headind">Current Situation</h2>
                 <p>Studying Back-end course.</p>
                 <p>Actively looking for a new job in Sweden </p>
+        </div>
         </div>
     )
 

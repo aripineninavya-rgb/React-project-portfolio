@@ -48,6 +48,7 @@ function Portfolio() {
       projectName: "DJ Theme Website (Group Project)",
       screenshot: djimg,
       tech: "HTML, CSS, Git, GitHub, Figma",
+      liveLink: "https://reactprojectnavya.netlify.app/about",
       repo: "https://github.com/MPLarsson/Group-Project",
       description: "This was our first group project where we built a multi-page DJ-themed website. The website includes a landing page, about us / product page, gallery, and contact page. We focused on creating a consistent design, smooth navigation between pages, hover effects on all interactive elements, and a validated contact form. The project helped us understand how to plan, design, and build a complete website as a team using GitHub collaboration.",
       shortNote: "Learned how to collaborate using GitHub branches, translate Figma designs into real code, maintain consistent UI across multiple pages, and communicate effectively within a team. I was responsible for designing the UI in Figma and developing the About Us page."
@@ -60,6 +61,7 @@ function Portfolio() {
       projectName: "Mini game",
       screenshot: minigame,
       tech: "React, React Router, useState & useEffect, LocalStorage, External API, CSS",
+      liveLink: "https://celebrated-creponne-b7897f.netlify.app/signup",
       repo: "https://github.com/aripineninavya-rgb/fecth-API",
       description: "This project is a small interactive Balloon Pop minigame built with React. Users can register and log in using credentials stored in LocalStorage, and once authenticated, they can access the game. The game fetches data from an external API and displays fun content when balloons are popped. The project demonstrates core React concepts, state management, routing, and browser storage",
       shortNote: "How to build a complete React flow (auth → routing → game). How APIs work and how to fetch and use external data. How to use LocalStorage for simple authentication. Debugging common React mistakes. Structuring components for scalability"
@@ -71,6 +73,7 @@ function Portfolio() {
       projectName: "Bhromaon Travel Website",
       screenshot: bhromaon,
       tech: "HTML5, CSS3, Sass (SCSS), Flexbox, CSS Grid, Responsive Design, Google Fonts, Font Awesome",
+      liveLink: "https://reactprojectnavya.netlify.app/",
       repo: "https://github.com/aripineninavya-rgb/Html-test-1",
       description: "Bhromaon is a responsive travel website built to showcase destinations and services. The project uses semantic HTML, organized Sass partials, and modern CSS layout techniques (Flexbox and Grid) to create a visually appealing and accessible interface. It includes interactive elements like buttons, navigation, and social icons with hover/focus states, a validated search form, and is fully responsive down to mobile screens.",
       shortNote: "Learned to build semantic, responsive web pages using HTML, CSS, and Sass; implement Flexbox/Grid for layouts; add hover/focus states for interactivity; structure code with Sass partials; and handle form validation while following design requirements."
